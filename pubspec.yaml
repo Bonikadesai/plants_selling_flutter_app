@@ -46,6 +46,7 @@ dependencies:
   molten_navigationbar_flutter:
   get_storage:
   sqflite:
+  path:
 
 dev_dependencies:
   flutter_test:

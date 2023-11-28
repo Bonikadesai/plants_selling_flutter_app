@@ -6,12 +6,6 @@ class favouriteDatabaseModel {
   String dbfav_oldPrice;
   String dbfav_discount;
   String dbfav_rating;
-  String dbfav_scientificName;
-  String dbfav_category;
-  String dbfav_tags;
-  String dbfav_dimensions;
-  String dbfav_watering;
-  String dbfav_description;
 
   favouriteDatabaseModel({
     required this.dbfav_id,
@@ -21,12 +15,6 @@ class favouriteDatabaseModel {
     required this.dbfav_oldPrice,
     required this.dbfav_discount,
     required this.dbfav_rating,
-    required this.dbfav_scientificName,
-    required this.dbfav_category,
-    required this.dbfav_tags,
-    required this.dbfav_dimensions,
-    required this.dbfav_watering,
-    required this.dbfav_description,
   });
 
   factory favouriteDatabaseModel.fromMap({required Map data}) {
@@ -38,12 +26,6 @@ class favouriteDatabaseModel {
       dbfav_oldPrice: data['dbfav_oldPrice'],
       dbfav_discount: data['dbfav_discount'],
       dbfav_rating: data['dbfav_rating'],
-      dbfav_scientificName: data['dbfav_scientificName'],
-      dbfav_category: data['dbfav_category'],
-      dbfav_tags: data['dbfav_tags'],
-      dbfav_dimensions: data['dbfav_dimensions'],
-      dbfav_watering: data['dbfav_watering'],
-      dbfav_description: data['dbfav_description'],
     );
   }
 }

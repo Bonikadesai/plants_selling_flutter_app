@@ -1,8 +1,9 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:plant_seling_app/controller/json_controller.dart';
-import 'package:plant_seling_app/helper/json_helper.dart';
-import 'package:plant_seling_app/model/plant_model.dart';
+import 'package:flutter/services.dart';
+
+import '../../model/plant_model.dart';
 
 class Plants_Screen extends StatefulWidget {
   const Plants_Screen({super.key});
@@ -20,13 +21,16 @@ enum SingingCharacter {
 
 class _Plants_ScreenState extends State<Plants_Screen> {
   late Future<List<PlantsModel>?> getPlant;
-  final JsonDecodeController jsonController = Get.put(JsonDecodeController());
+  //late Future<List<PlantDatabaseModel>> fetchAllCategory;
+
+  //final JsonDecodeController jsonController = Get.put(JsonDecodeController());
   SingingCharacter? character = SingingCharacter.Relevance;
 
   @override
   void initState() {
     // TODO: implement initState
-    getPlant = JSONHelper.jsonHelper.loadJsonData();
+    //getPlant = JSONHelper.jsonHelper.loadJsonData();
+    // fetchAllCategory = JsonHelper.jsonHelper.fetchAllCategory();
     super.initState();
   }
 
@@ -243,63 +247,65 @@ class _Plants_ScreenState extends State<Plants_Screen> {
           ),
         ),
       ),
-      body: FutureBuilder(
-        future: getPlant,
-        builder: (context, snapshot) {
-          if (snapshot.hasError) {
-            return Center(
-              child: Text("Error : ${snapshot.error}"),
-            );
-          } else if (snapshot.hasData) {
-            PlantsModel data = snapshot.data;
-            if (data == null) {
-              return const Center(
-                child: Text("No available data..."),
-              );
-            } else {
-              return GridView.builder(
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2,
-                  mainAxisSpacing: 8.0,
-                  crossAxisSpacing: 8.0,
-                ),
-                itemCount: data.length,
-                itemBuilder: (context, index) {
-                  return GestureDetector(
-                    onTap: () {
-                      Get.toNamed("/Detail_Screen", arguments: data[index]);
-                    },
-                    child: Column(
-                      children: [
-                        Container(
-                          height: 160,
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                              image: AssetImage(""),
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-                        Text(data[index].plantcategory)
-                      ],
-                    ),
-                  );
-                },
-              );
-            }
-          }
-          return Center(
-            child: CircularProgressIndicator(),
-          );
-        },
-      ),
       // body: FutureBuilder(
-      //   future: jsonController.loadJson(),
+      //   future: fetchAllCategory,
+      //   builder: (context, snapshot) {
+      //     if (snapshot.hasError) {
+      //       return Center(
+      //         child: Text("Error : ${snapshot.error}"),
+      //       );
+      //     } else if (snapshot.hasData) {
+      //       List<PlantDatabaseModel>? data = snapshot.data;
+      //       if (data == null || data.isEmpty) {
+      //         return const Center(
+      //           child: Text("No available data..."),
+      //         );
+      //       } else {
+      //         return GridView.builder(
+      //           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+      //             crossAxisCount: 2,
+      //             mainAxisSpacing: 8.0,
+      //             crossAxisSpacing: 8.0,
+      //           ),
+      //           itemCount: data.length,
+      //           itemBuilder: (context, index) {
+      //             return GestureDetector(
+      //               onTap: () {
+      //                 Get.toNamed("/Detail_Screen", arguments: data[index]);
+      //               },
+      //               child: Column(
+      //                 children: [
+      //                   Container(
+      //                     height: 160,
+      //                     decoration: BoxDecoration(
+      //                       image: DecorationImage(
+      //                         image: AssetImage(data[index].categoryIcon),
+      //                         fit: BoxFit.cover,
+      //                       ),
+      //                     ),
+      //                   ),
+      //                   Text(
+      //                     data[index].plantCategory,
+      //                   )
+      //                 ],
+      //               ),
+      //             );
+      //           },
+      //         );
+      //       }
+      //     }
+      //     return Center(
+      //       child: CircularProgressIndicator(),
+      //     );
+      //   },
+      // // ),
+      // body: FutureBuilder(
+      //   future: rootBundle.loadString("lib/resource/jsonData.json"),
       //   builder: (context, snapshot) {
       //     if (snapshot.connectionState == ConnectionState.done) {
-      //       List<PlantModel> plantData = List<PlantModel>.from(
+      //       List<PlantsModel> plantData = List<PlantsModel>.from(
       //         jsonDecode(jsonController.jsonModel.data).map(
-      //           (x) => PlantModel.fromMap(x),
+      //           (x) => PlantsModel.fromMap(x),
       //         ),
       //       );
       //       return GridView.builder(
@@ -338,6 +344,295 @@ class _Plants_ScreenState extends State<Plants_Screen> {
       //     }
       //   },
       // ),
+      // body: SingleChildScrollView(
+      //   child: Column(
+      //     children: [
+      //       Padding(
+      //         padding: const EdgeInsets.all(8.0),
+      //         child: Row(
+      //           children: [
+      //             Column(
+      //               children: [
+      //                 GestureDetector(
+      //                   onTap: () {
+      //                     Get.toNamed('/Detail_Screen');
+      //                   },
+      //                   child: Container(
+      //                     height: 185,
+      //                     width: 185,
+      //                     decoration: BoxDecoration(
+      //                       image: DecorationImage(
+      //                         image: AssetImage(
+      //                             "assets/category_flower/wildflower.jpg"),
+      //                         fit: BoxFit.cover,
+      //                       ),
+      //                     ),
+      //                   ),
+      //                 ),
+      //                 Text(
+      //                   "Wild Flower",
+      //                   style: TextStyle(fontSize: 20),
+      //                 ),
+      //               ],
+      //             ),
+      //             SizedBox(
+      //               width: 5,
+      //             ),
+      //             GestureDetector(
+      //               onTap: () {
+      //                 Get.toNamed('/Detail_Screen');
+      //               },
+      //               child: Column(
+      //                 children: [
+      //                   Container(
+      //                     height: 185,
+      //                     width: 185,
+      //                     decoration: BoxDecoration(
+      //                       image: DecorationImage(
+      //                         image:
+      //                             AssetImage("assets/category_flower/weed.jpg"),
+      //                         fit: BoxFit.cover,
+      //                       ),
+      //                     ),
+      //                   ),
+      //                   Text(
+      //                     "Weed",
+      //                     style: TextStyle(fontSize: 20),
+      //                   ),
+      //                 ],
+      //               ),
+      //             ),
+      //           ],
+      //         ),
+      //       ),
+      //       SizedBox(
+      //         height: 5,
+      //       ),
+      //       Padding(
+      //         padding: const EdgeInsets.all(8.0),
+      //         child: Row(
+      //           children: [
+      //             Column(
+      //               children: [
+      //                 GestureDetector(
+      //                   onTap: () {
+      //                     Get.toNamed('/Detail_Screen');
+      //                   },
+      //                   child: Container(
+      //                     height: 185,
+      //                     width: 185,
+      //                     decoration: BoxDecoration(
+      //                       image: DecorationImage(
+      //                         image: AssetImage(
+      //                             "assets/category_flower/thistle.jpg"),
+      //                         fit: BoxFit.cover,
+      //                       ),
+      //                     ),
+      //                   ),
+      //                 ),
+      //                 Text(
+      //                   "Thistle",
+      //                   style: TextStyle(fontSize: 20),
+      //                 ),
+      //               ],
+      //             ),
+      //             SizedBox(
+      //               width: 5,
+      //             ),
+      //             Column(
+      //               children: [
+      //                 GestureDetector(
+      //                   onTap: () {
+      //                     Get.toNamed('/Detail_Screen');
+      //                   },
+      //                   child: Container(
+      //                     height: 185,
+      //                     width: 185,
+      //                     decoration: BoxDecoration(
+      //                       image: DecorationImage(
+      //                         image: AssetImage(
+      //                             "assets/category_flower/mashroom.jpg"),
+      //                         fit: BoxFit.cover,
+      //                       ),
+      //                     ),
+      //                   ),
+      //                 ),
+      //                 Text(
+      //                   "Mashroom",
+      //                   style: TextStyle(fontSize: 20),
+      //                 ),
+      //               ],
+      //             ),
+      //           ],
+      //         ),
+      //       ),
+      //       SizedBox(
+      //         height: 5,
+      //       ),
+      //       Padding(
+      //         padding: const EdgeInsets.all(8.0),
+      //         child: Row(
+      //           children: [
+      //             Column(
+      //               children: [
+      //                 GestureDetector(
+      //                   onTap: () {
+      //                     Get.toNamed('/Detail_Screen');
+      //                   },
+      //                   child: Container(
+      //                     height: 185,
+      //                     width: 185,
+      //                     decoration: BoxDecoration(
+      //                       image: DecorationImage(
+      //                         image:
+      //                             AssetImage("assets/category_flower/herb.jpg"),
+      //                         fit: BoxFit.cover,
+      //                       ),
+      //                     ),
+      //                   ),
+      //                 ),
+      //                 Text(
+      //                   "Herb",
+      //                   style: TextStyle(fontSize: 20),
+      //                 ),
+      //               ],
+      //             ),
+      //             SizedBox(
+      //               width: 5,
+      //             ),
+      //             Column(
+      //               children: [
+      //                 GestureDetector(
+      //                   onTap: () {
+      //                     Get.toNamed('/Detail_Screen');
+      //                   },
+      //                   child: Container(
+      //                     height: 185,
+      //                     width: 185,
+      //                     decoration: BoxDecoration(
+      //                       image: DecorationImage(
+      //                         image: AssetImage(
+      //                             "assets/category_flower/flower.jpg"),
+      //                         fit: BoxFit.cover,
+      //                       ),
+      //                     ),
+      //                   ),
+      //                 ),
+      //                 Text(
+      //                   "Flower",
+      //                   style: TextStyle(fontSize: 20),
+      //                 ),
+      //               ],
+      //             ),
+      //           ],
+      //         ),
+      //       ),
+      //       SizedBox(
+      //         height: 5,
+      //       ),
+      //       Padding(
+      //         padding: const EdgeInsets.all(8.0),
+      //         child: Row(
+      //           children: [
+      //             Column(
+      //               children: [
+      //                 GestureDetector(
+      //                   onTap: () {
+      //                     Get.toNamed('/Detail_Screen');
+      //                   },
+      //                   child: Container(
+      //                     height: 185,
+      //                     width: 185,
+      //                     decoration: BoxDecoration(
+      //                       image: DecorationImage(
+      //                         image: AssetImage(
+      //                             "assets/category_flower/ferns.png"),
+      //                         fit: BoxFit.cover,
+      //                       ),
+      //                     ),
+      //                   ),
+      //                 ),
+      //                 Text(
+      //                   "Ferns",
+      //                   style: TextStyle(fontSize: 20),
+      //                 ),
+      //               ],
+      //             ),
+      //             SizedBox(
+      //               width: 5,
+      //             ),
+      //             Column(
+      //               children: [
+      //                 GestureDetector(
+      //                   onTap: () {
+      //                     Get.toNamed('/Detail_Screen');
+      //                   },
+      //                   child: Container(
+      //                     height: 185,
+      //                     width: 185,
+      //                     decoration: BoxDecoration(
+      //                       image: DecorationImage(
+      //                         image: AssetImage(
+      //                             "assets/category_flower/cactus.jpg"),
+      //                         fit: BoxFit.cover,
+      //                       ),
+      //                     ),
+      //                   ),
+      //                 ),
+      //                 Text(
+      //                   "Cactus",
+      //                   style: TextStyle(fontSize: 20),
+      //                 ),
+      //               ],
+      //             ),
+      //           ],
+      //         ),
+      //       ),
+      //       SizedBox(
+      //         height: 5,
+      //       ),
+      //     ],
+      //   ),
+      // ),
+      body: FutureBuilder(
+        future: rootBundle.loadString("lib/resource/jsonData.json"),
+        builder: (context, snapshot) {
+          if (snapshot.hasError) {
+            return Center(
+              child: Text("Error : ${snapshot.error}"),
+            );
+          } else if (snapshot.hasData) {
+            List decodedList = jsonDecode(snapshot.data!);
+            List<PlantsModel> plantsmodel =
+                decodedList.map((e) => PlantsModel.fromMap(data: e)).toList();
+            List<PlantsModel>? data = plantsmodel;
+            if (data == null || data.isEmpty) {
+              return const Center(
+                child: Text("No available data..."),
+              );
+            } else
+              GridView.builder(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  mainAxisSpacing: 8.0,
+                  crossAxisSpacing: 8.0,
+                ),
+                itemCount: data.length,
+                itemBuilder: (context, index) {
+                  return Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: NetworkImage(data[index].plant_image),
+                      ),
+                    ),
+                  );
+                },
+              );
+          }
+
+          return Center(child: CircularProgressIndicator());
+        },
+      ),
     );
   }
 }
