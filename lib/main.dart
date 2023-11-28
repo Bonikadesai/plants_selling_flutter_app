@@ -1,6 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:plant_seling_app/screen/plants_components/gardening_screen.dart';
+import 'package:plant_seling_app/screen/plants_components/plants_screen.dart';
+import 'package:plant_seling_app/screen/plants_components/seeds.dart';
+import 'package:plant_seling_app/screen/views/details_screen.dart';
 import 'package:plant_seling_app/screen/views/home_screen.dart';
 import 'package:plant_seling_app/screen/views/login_screen.dart';
 import 'package:plant_seling_app/screen/views/page_view.dart';
@@ -19,6 +23,7 @@ void main() async {
   );
   runApp(
     GetMaterialApp(
+      title: 'Plant Selling',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
       getPages: [
@@ -53,6 +58,22 @@ void main() async {
         GetPage(
           name: '/Page_View_Screen',
           page: () => const Page_View_Screen(),
+        ),
+        GetPage(
+          name: '/gardening_screen',
+          page: () => const Gardening_Screen(),
+        ),
+        GetPage(
+          name: '/plant_screen',
+          page: () => const Plants_Screen(),
+        ),
+        GetPage(
+          name: '/seed_screen',
+          page: () => const Seeds_Screen(),
+        ),
+        GetPage(
+          name: '/Detail_Screen',
+          page: () => const Details_Screen(),
         ),
       ],
     ),

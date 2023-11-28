@@ -5,7 +5,6 @@ import 'package:plant_seling_app/screen/Components/cart.dart';
 import 'package:plant_seling_app/screen/Components/category.dart';
 import 'package:plant_seling_app/screen/Components/serch.dart';
 import 'package:plant_seling_app/screen/Components/user.dart';
-import 'package:wave_navigation_bar/wave_navigation_bar.dart';
 
 import '../Components/home.dart';
 
@@ -19,7 +18,6 @@ class Home_Screen extends StatefulWidget {
 class _Home_ScreenState extends State<Home_Screen> {
   int SelectedIndex = 0;
   int currentPage = 0;
-  final _bottomNavigationKey = GlobalKey<WaveNavigationBarState>();
   PageController pageController = PageController();
   final List<Widget> bottomBarPages = [
     const Home(),
@@ -48,37 +46,6 @@ class _Home_ScreenState extends State<Home_Screen> {
             bottomBarPages.length, (index) => bottomBarPages[index]),
       ),
       extendBody: true,
-      // bottomNavigationBar: WaveNavigationBar(
-      //   key: _bottomNavigationKey,
-      //   index: 0,
-      //   height: 60.0,
-      //   selectedIconBackgrounColor: Color(0xff41825F),
-      //   buttonBackgroundColor: Colors.white,
-      //   backgroundColor: Colors.grey.shade200,
-      //   animationCurve: Curves.easeInOut,
-      //   animationDuration: const Duration(milliseconds: 400),
-      //   onChanged: (int index) {
-      //     pageController.jumpToPage(index);
-      //   },
-      //   items: const [
-      //     Icon(
-      //       Icons.home_outlined,
-      //       size: 30,
-      //     ),
-      //     Icon(
-      //       Icons.history,
-      //       size: 30,
-      //     ),
-      //     Icon(
-      //       Icons.feed,
-      //       size: 30,
-      //     ),
-      //     Icon(
-      //       Icons.person_pin,
-      //       size: 30,
-      //     ),
-      //   ],
-      // ),
       bottomNavigationBar: MoltenBottomNavigationBar(
         borderRaduis: BorderRadius.circular(40),
         barColor: Colors.grey.shade200,
@@ -87,6 +54,7 @@ class _Home_ScreenState extends State<Home_Screen> {
         onTabChange: (clickedIndex) {
           setState(() {
             SelectedIndex = clickedIndex;
+            pageController.jumpToPage(SelectedIndex);
           });
         },
         tabs: [

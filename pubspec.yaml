@@ -43,8 +43,9 @@ dependencies:
   pinput:
   introduction_screen:
   shared_preferences:
-  wave_navigation_bar: ^0.0.2
   molten_navigationbar_flutter:
+  get_storage:
+  sqflite:
 
 dev_dependencies:
   flutter_test:
@@ -71,6 +72,8 @@ flutter:
     - assets/gif/
     - assets/images/
     - google_fonts/
+    - assets/category_flower/
+    - lib/resource/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
