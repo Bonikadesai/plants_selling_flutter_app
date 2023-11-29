@@ -74,6 +74,14 @@ flutter:
     - assets/images/
     - google_fonts/
     - assets/category_flower/
+    - assets/bonsai/
+    - assets/cactus/
+    - assets/fern/
+    - assets/flower/
+    - assets/mashroom/
+    - assets/thistle/
+    - assets/weed/
+    - assets/wildflower/
     - lib/resource/
 
   # To add assets to your application, add an assets section, like this:
