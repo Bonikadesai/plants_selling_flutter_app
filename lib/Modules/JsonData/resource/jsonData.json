@@ -1,0 +1,1444 @@
+[
+  {
+    "category-id": 1,
+    "plant-category": "Wild Flower",
+    "category-icon": "lib/assets/category_flower/wildflower.jpg",
+    "plants": [
+      {
+        "id": "1",
+        "plant-name": "Black-Eyed Susan",
+        "plant-image": "lib/assets/wildflower/Black_Eyed_Susan.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Rudbeckia hirta",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "2",
+        "plant-name": "Blazing Star",
+        "plant-image": "lib/assets/wildflower/blazing_star.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Liatris spicata",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "3",
+        "plant-name": "Blanket Flower",
+        "plant-image": "lib/assets/wildflower/blanket_flower.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Gaillardia",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "4",
+        "plant-name": "Columbine",
+        "plant-image": "lib/assets/wildflower/Columbine.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Aquilegia vulgaris",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "5",
+        "plant-name": "California Poppy",
+        "plant-image": "lib/assets/wildflower/california.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details":
+        {
+          "scientific-name": "Eschscholzia californica",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "6",
+        "plant-name": "Dutchman's Breeches",
+        "plant-image": "lib/assets/wildflower/Dutchman.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details":
+        {
+          "scientific-name": "Dicentra cucullaria",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "7",
+        "plant-name": "Hepatica Americana",
+        "plant-image": "lib/assets/wildflower/Hepatica.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details":
+        {
+          "scientific-name": "Ker gawl",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "8",
+        "plant-name": "Jack-in-the-pulpit",
+        "plant-image": "lib/assets/wildflower/jack_in_the_pulpit_plants.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Arisaema triphyllum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "9",
+        "plant-name": "Joe-Pye Weed",
+        "plant-image": "lib/assets/wildflower/Eutrochium_dubium.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Eutrochium purpureum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "10",
+        "plant-name": "New England Aster",
+        "plant-image": "lib/assets/wildflower/new_england_asters.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Symphyotrichum novae-angliae",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      }
+    ]
+  },
+  {
+    "category-id": 2,
+    "plant-category": "Thistle",
+    "category-icon": "lib/assets/category_flower/thistle.jpg",
+    "plants": [
+      {
+        "id": "1",
+        "plant-name": "Scottish Thistle",
+        "plant-image": "lib/assets/thistle/scottish_thistle.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Onopordum acanthium",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "2",
+        "plant-name": "Spear Thistle",
+        "plant-image": "lib/assets/thistle/spear.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Cirsium vulgare",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "3",
+        "plant-name": "Melancholy Thistle",
+        "plant-image": "lib/assets/thistle/Melancholy.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Cirsium heterophyllum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "4",
+        "plant-name": "Creeping Thistle",
+        "plant-image": "lib/assets/thistle/Creeping.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Cirsium arvense",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "5",
+        "plant-name": "Meadow Thistle",
+        "plant-image": "lib/assets/thistle/Meadow.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Cirsium dissectum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "6",
+        "plant-name": "Marsh Thistle",
+        "plant-image": "lib/assets/thistle/Marsh.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Cirsium palustre",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "7",
+        "plant-name": "Woolly Thistle",
+        "plant-image": "lib/assets/thistle/Woolly.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Cirsium eriophorum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "8",
+        "plant-name": "Slender Thistle",
+        "plant-image": "lib/assets/thistle/Slender.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Carduus tenuiflorus",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "9",
+        "plant-name": "Musk Thistle",
+        "plant-image": "lib/assets/thistle/Musk.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Carduus nutans",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "10",
+        "plant-name": "Carline Thistle",
+        "plant-image": "lib/assets/thistle/Carline.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Carlina vulgaris",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      }
+    ]
+  },
+  {
+    "category-id": 3,
+    "plant-category": "Flowers",
+    "category-icon": "lib/assets/category_flower/flower.jpg",
+    "plants": [
+      {
+        "id": "1",
+        "plant-name": "African Daisy",
+        "plant-image": "lib/assets/flower/African_Daisy.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Osteospermum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "2",
+        "plant-name": "African Lily",
+        "plant-image": "lib/assets/flower/African_Lily.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Agapanthus africanus ",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "3",
+        "plant-name": "Marigold",
+        "plant-image": "lib/assets/flower/African_Marigold.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Tagetes erecta",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "4",
+        "plant-name": "Violet",
+        "plant-image": "lib/assets/flower/African_Violet.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Streptocarpus Saintpaulia",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "5",
+        "plant-name": "Alpenrose",
+        "plant-image": "lib/assets/flower/Alpenrose.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Rhododendron ferrugineum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "6",
+        "plant-name": "Amaryllis",
+        "plant-image": "lib/assets/flower/Amaryllis.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Hippeastrum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "7",
+        "plant-name": "American Lotus",
+        "plant-image": "lib/assets/flower/American_Lotus.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Nelumbo lutea ",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "8",
+        "plant-name": "American Wisteria",
+        "plant-image": "lib/assets/flower/American_Wisteria.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Wisteria frutescens",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        }, "quality": "1"
+      },
+      {
+        "id": "9",
+        "plant-name": "Angels Fishing Rod",
+        "plant-image": "lib/assets/flower/American_Fishing_Rod.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Dierama pulcherrimum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "10",
+        "plant-name": "Anise Hyssop",
+        "plant-image": "lib/assets/flower/Anise_Hyssop.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Agastache foeniculum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      }
+    ]
+  },
+  {
+    "category-id": 4,
+    "plant-category": "Mashroom",
+    "category-icon": "lib/assets/category_flower/mashroom.jpg",
+    "plants": [
+      {
+        "id": "1",
+        "plant-name": "Button Mushrooms",
+        "plant-image": "lib/assets/mashroom/Button_Mushrooms.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Agaricus bisporus",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "2",
+        "plant-name": "Crimini Mushrooms",
+        "plant-image": "lib/assets/mashroom/Cremini_Mushrooms.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Agaricus bisporus mushrooms",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },
+        "quality": "1"
+      },
+      {
+        "id": "3",
+        "plant-name": "Portabello Mushrooms",
+        "plant-image": "lib/assets/mashroom/Portobello_Mushrooms.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Agaricus bisporus",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "4",
+        "plant-name": "Hedgehog Mushroom",
+        "plant-image": "lib/assets/mashroom/hedgehog_mushroom.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Hydnum repandum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "5",
+        "plant-name": "Maitake Mushroom",
+        "plant-image": "lib/assets/mashroom/maitake_mushrooms.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Hen of the wood",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "6",
+        "plant-name": "Morel Mushroom",
+        "plant-image": "lib/assets/mashroom/morel_mushroom.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "True morels",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "7",
+        "plant-name": "Shiitake Mushrooms",
+        "plant-image": "lib/assets/mashroom/shiitake_mushroom.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Lentinula edodes",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "8",
+        "plant-name": "Porcini Mushrooms",
+        "plant-image": "lib/assets/mashroom/porcini_mushroom.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Boletus edulis",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "9",
+        "plant-name": "Lobster Mushrooms",
+        "plant-image": "lib/assets/mashroom/lobster_mushrooms.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Hypomyces lactifluorum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "10",
+        "plant-name": "Enoki Mushrooms",
+        "plant-image": "lib/assets/mashroom/enoki_mushrooms.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Flammulina filiformis",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      }
+    ]
+  },
+  {
+    "category-id": 5,
+    "plant-category": "Weed",
+    "category-icon": "lib/assets/category_flower/weed.jpg",
+    "plants": [
+      {
+        "id": "1",
+        "plant-name": "Poison sumac",
+        "plant-image": "lib/assets/weed/poison_sumac.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Toxicodendron Vernix",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "2",
+        "plant-name": "Japanese Knot Weed",
+        "plant-image": "lib/assets/weed/Japanese_Knot.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Polygonum cuspidatum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "3",
+        "plant-name": "Crabgrass",
+        "plant-image": "lib/assets/weed/Crabgrass.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Digitaria",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "4",
+        "plant-name": "Dandelions",
+        "plant-image": "lib/assets/weed/Dandelions.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Leontodon taraxacum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "5",
+        "plant-name": "plantain plants",
+        "plant-image": "lib/assets/weed/plantain.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Plantago major",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "6",
+        "plant-name": "Common Ragweed",
+        "plant-image": "lib/assets/weed/Common_Ragweed.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Ambrosia artemisiifolia",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "7",
+        "plant-name": "Giant ragweed",
+        "plant-image": "lib/assets/weed/Giant.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Ambrosia trifida",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "8",
+        "plant-name": "Hedge bindweed",
+        "plant-image": "lib/assets/weed/Hedge.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Convolvus arvensis",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "9",
+        "plant-name": "Ground Ivy",
+        "plant-image": "lib/assets/weed/Ground.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Glechoma hederacea",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "10",
+        "plant-name": "Purslane",
+        "plant-image": "lib/assets/weed/Purslane.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Portulaca olearacea",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      }
+    ]
+  },
+  {
+    "category-id": 6,
+    "plant-category": "Ferns",
+    "category-icon": "lib/assets/category_flower/ferns.png",
+    "plants": [
+      {
+        "id": "1",
+        "plant-name": "Sensitive Fern",
+        "plant-image": "lib/assets/fern/Sensitive.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Onoclea sensibilis",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "2",
+        "plant-name": "Royal Fern",
+        "plant-image": "lib/assets/fern/Royal.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Osmunda regalis var. spectabilis",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "3",
+        "plant-name": "Ostrich Fern",
+        "plant-image": "lib/assets/fern/Ostrich.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Matteuccia struthiopteris",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "4",
+        "plant-name": "Boston Fern",
+        "plant-image": "lib/assets/fern/Boston.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Nephrolepis exaltata",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "5",
+        "plant-name": "Water Fern",
+        "plant-image": "lib/assets/fern/Water.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Azolla filiculoides",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "6",
+        "plant-name": "Western Sword Fern",
+        "plant-image": "lib/assets/fern/Western.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Polystichum munitum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "7",
+        "plant-name": "Australian Tree Fern",
+        "plant-image": "lib/assets/fern/Australian.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Cyathea cooperi",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "8",
+        "plant-name": "Hairy Lip Fern",
+        "plant-image": "lib/assets/fern/Hairy.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Cheilanthes lanosa",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "9",
+        "plant-name": "Holly Fern",
+        "plant-image": "lib/assets/fern/Holly.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Cyrtomium falcatum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "10",
+        "plant-name": "Lady Fern",
+        "plant-image": "lib/assets/fern/Lady.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Athyrium filix-femina",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      }
+    ]
+  },
+  {
+    "category-id": 7,
+    "plant-category": "Bonsai Plants",
+    "category-icon": "lib/assets/category_flower/bonsai.jpg",
+    "plants": [
+      {
+        "id": "1",
+        "plant-name": "Juniper",
+        "plant-image": "lib/assets/bonsai/Juniper.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Juniperus",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "2",
+        "plant-name": "Pine",
+        "plant-image": "lib/assets/bonsai/Pine.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "pinus",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "3",
+        "plant-name": "Japanese Maple",
+        "plant-image": "lib/assets/bonsai/Japanese.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Acer palmatum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "4",
+        "plant-name": "Japanese flowering cherry",
+        "plant-image": "lib/assets/bonsai/cherry.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Prunus serrulata",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        }, "quality": "1"
+      },
+      {
+        "id": "5",
+        "plant-name": "Cedar",
+        "plant-image": "lib/assets/bonsai/Cedar.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Cedrus",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "6",
+        "plant-name": "Ginseng ficus",
+        "plant-image": "lib/assets/bonsai/Ginseng.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Ficus microcarpa",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "7",
+        "plant-name": "weeping fig",
+        "plant-image": "lib/assets/bonsai/weeping.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Ficus benjamina",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "8",
+        "plant-name": "Dwarf jade",
+        "plant-image": "lib/assets/bonsai/Dwarf.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Portulacaria afra",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "9",
+        "plant-name": "Pomegranate",
+        "plant-image": "lib/assets/bonsai/Pomegranate.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Punica granatum",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        },"quality": "1"
+      },
+      {
+        "id": "10",
+        "plant-name": "Dwarf boxwood",
+        "plant-image": "lib/assets/bonsai/boxwood.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Buxus spp.",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6 inch (15 cm) h x 4 inch (10 cm)w",
+          "watering": "Moderetly",
+          "description": "It has striking grey-green coloured, fleshy spoon-shaped leaves growing in a rosette on a stem. It is a popular groundcover plant in rockeries and water-wise gardens."
+        }, "quality": "1"
+      }
+    ]
+  },
+  {
+    "category-id": 8,
+    "plant-category": "Cactus",
+    "category-icon": "lib/assets/category_flower/cactus.jpg",
+    "plants": [
+      {
+        "id": "1",
+        "plant-name": "Bunny Ears Cactus",
+        "plant-image": "lib/assets/cactus/Bunny_Ears.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Opuntia microdasys",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "15 to 23 (40 – 60 cm) ",
+          "watering": "Moderetly",
+          "description": "The Bunny Ears cactus has fine hair-like spines (glochids) that are extremely thin. The white or yellow glochids give the plant a dotted appearance like polka dots."
+        },"quality": "1"
+      },
+      {
+        "id": "2",
+        "plant-name": "Old Lady Cactus",
+        "plant-image": "lib/assets/cactus/Old_Lady.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Mammillaria hahniana",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "20” (50 cm) in diameter and 10” (25 cm) tall",
+          "watering": "Moderetly",
+          "description": "One of the delightful features of this desert cactus is the reddish-purple flowers that can sometimes appear. "
+        },"quality": "1"
+      },
+      {
+        "id": "3",
+        "plant-name": "Balloon Cactus",
+        "plant-image": "lib/assets/cactus/Balloon.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Parodia magnifica",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6” (15 cm) tall and measure 18” (45 cm) ",
+          "watering": "Moderetly",
+          "description": "The stunning large globe-shaped Balloon cactus has a large rib-like appearance with rows of contrasting white or yellow spines on the edge. "
+        },"quality": "1"
+      },
+      {
+        "id": "4",
+        "plant-name": "Christmas Cactus",
+        "plant-image": "lib/assets/cactus/Christmas.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Schlumbergera",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "6” to 12” (15 – 30 cm) long and up to 24” (60 cm)",
+          "watering": "Moderetly",
+          "description": "A very popular indoor type of cactus is the Christmas cactus that is native to tropical regions in Brazil."
+        },"quality": "1"
+      },
+      {
+        "id": "5",
+        "plant-name": "Powder Puff Cactus",
+        "plant-image": "lib/assets/cactus/Powder_Puff.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Mammillaria",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "3” and 5” (7.5 – 12 cm) high ",
+          "watering": "Moderetly",
+          "description": "Mammillaria boolii is a small round cactus covered in fine hair-like spines. The interesting feature of this cactus is the relatively large flowers which appear on this small cactus."
+        },"quality": "1"
+      },
+      {
+        "id": "6",
+        "plant-name": "Moon Cactus",
+        "plant-image": "lib/assets/cactus/moon.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Gymnocalycium mihanovichii",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "small as 1.5” (4 cm) with the largest types growing up to 6” (15 cm) in diameter.",
+          "watering": "Moderetly",
+          "description": "Originating in Paraguay and Argentina, the Moon cactus is an unusual type of cactus with a colorful top that can be red, pink, orange or yellow."
+        },"quality": "1"
+      },
+      {
+        "id": "7",
+        "plant-name": "Chin Cactus",
+        "plant-image": "lib/assets/cactus/chin.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Gymnocalycium",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "small as 1.5” (4 cm) with the largest types growing up to 6” (15 cm) in diameter.",
+          "watering": "Moderetly",
+          "description": "The botanical name for the chin cactus variety (Gymnocalycium) comes from the fact that it’s “hairless” or “spineless” cactus."
+        },"quality": "1"
+      },
+      {
+        "id": "8",
+        "plant-name": "Star Cactus",
+        "plant-image": "lib/assets/cactus/star.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Astrophytum asterias",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "small as 1.5” (4 cm) with the largest types growing up to 6” (15 cm) in diameter.",
+          "watering": "Moderetly",
+          "description": "The Star cactus is a green cactus with a smooth round, bulging shape, covered in white dots, fine hairs, and a line of raised tufts along the center of each segment."
+        },"quality": "1"
+      },
+      {
+        "id": "9",
+        "plant-name": "Fairy Castle Cactus",
+        "plant-image": "lib/assets/cactus/fairy.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Acanthocereus Tetragonus",
+          "category": "plant,indoor,oxutdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "grow up to 6 ft. (1.8 m) tall.",
+          "watering": "Moderetly",
+          "description": "The Fairy Castle cactus is identified by its long green spiky stems, small side growths on the stems, and whitish flowers that may turn pale orange when blooming."
+        },"quality": "1"
+      },
+      {
+        "id": "10",
+        "plant-name": "Lady Finger Cactus",
+        "plant-image": "lib/assets/cactus/lady_finger.jpg",
+        "price": "$10",
+        "old-price": "$8",
+        "discount": "-30%",
+        "rating": "4.5",
+        "details": {
+          "scientific-name": "Mammillaria elongata",
+          "category": "plant,indoor,outdoor",
+          "tags": "Succulent Plant- 1",
+          "dimensions": "grow 2.3” to 6” (6 – 15 cm) long and up to 1.6” (4 cm) in diameter.\n\n",
+          "watering": "Moderetly",
+          "description": "The Lady Finger cactus is a small cactus plant with stubby columnar stems covered in sharp fuzzy spikes."
+        },"quality": "1"
+      }
+    ]
+  }
+]

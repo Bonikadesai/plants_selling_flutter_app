@@ -47,6 +47,7 @@ dependencies:
   get_storage:
   sqflite:
   path:
+  upi_india: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -70,19 +71,19 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/gif/
-    - assets/images/
-    - google_fonts/
-    - assets/category_flower/
-    - assets/bonsai/
-    - assets/cactus/
-    - assets/fern/
-    - assets/flower/
-    - assets/mashroom/
-    - assets/thistle/
-    - assets/weed/
-    - assets/wildflower/
-    - lib/resource/
+    - lib/assets/gif/
+    - lib/assets/images/
+    - lib/google_fonts/
+    - lib/assets/category_flower/
+    - lib/assets/bonsai/
+    - lib/assets/cactus/
+    - lib/assets/fern/
+    - lib/assets/flower/
+    - lib/assets/mashroom/
+    - lib/assets/thistle/
+    - lib/assets/weed/
+    - lib/assets/wildflower/
+    - lib/Modules/JsonData/resource
 
   # To add assets to your application, add an assets section, like this:
   # assets:
